@@ -1,0 +1,200 @@
+
+// *=require_tree .
+// *=require_self
+
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+ @import "pages";
+ @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+// ENTER PAGE
+ // .intro-page {
+ //   background-image: url("/assets/watercolourbright.jpg");
+ //   background-size: cover;
+ //   background-position: center;
+ //   background-repeat: no-repeat;
+ //   height: 100vh;
+ //  //  width: 1290px;
+ // }
+
+ .background-head {
+   background-image: url("/assets/screenshot.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+
+ }
+
+
+.grey-border {
+  border-bottom: 2px solid #585858;
+}
+
+//
+// .heading {
+//   font-family:'Dancing Script', cursive;
+//   font-size: 100px;
+//   color: #585858;
+//   text-align: center;
+//   padding-top: 100px;
+// }
+
+h1 {
+  font-size: 100px;
+  padding-bottom: 50px;
+}
+
+h2, h3 {
+  font-size: 70px;
+  font-family:'Dancing Script', cursive;
+  text-align: center;
+  color: #585858;
+  padding-bottom: 10px;
+  margin-left: 30px;
+}
+h5 {
+  font-size: 70px;
+  font-family:'Dancing Script', cursive;
+  text-align: center;
+  color: #585858;
+  padding-bottom: 10px;
+}
+
+h4 {
+  font-size: 40px;
+  font-family:'Dancing Script', cursive;
+  text-align: center;
+  color: #585858;
+  padding-bottom: 10px;
+}
+
+h6 {
+  font-size: 100px;
+  font-family:'Dancing Script', cursive;
+  text-align: center;
+  color: #585858;
+}
+
+.projects-section {
+  padding: 80px, 0;
+  margin-top: 0px;
+
+}
+.skills-section {
+  margin-left: 10px;
+  padding: 80px, 0;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #F5F5F5, #FFC4A9);
+}
+
+.container {
+  margin-left: 300px;
+}
+
+.page-header {
+  border-color: transparent;
+}
+.contact-link {
+  font-family:'Dancing Script', cursive;
+  font-size: 70px;
+  color: #585858;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+}
+
+
+
+// BACK TO TOP BUTTON
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #585858; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+// VERTICAL LINE
+.vertical-line {
+  height: 400px;
+}
+
+.vertical-line-border {
+  height: 100%;
+  border: 1px solid;
+  width: 1px;
+  // margin-left: 0px;
+  // margin-right: 0px;
+  margin: 0 auto;
+  border-color: #585858;
+}
+
+.vertical-line-top {
+  height: 270px;
+}
+
+.vertical-line-border-top {
+  height: 100%;
+  border: 1px solid;
+  width: 1px;
+  // margin-left: 0px;
+  // margin-right: 0px;
+  margin: 0 auto;
+  border-color: #585858;
+}
+
+.vertical-line-skills {
+  height: 400px;
+}
+
+.vertical-line-border-skills {
+  height: 100%;
+  border: 1px solid;
+  width: 1px;
+  // margin-left: 0px;
+  // margin-right: 0px;
+  margin: 0 auto;
+  border-color: #585858;
+}
+
+.vertical-line-projects {
+  height: 100px;
+}
+
+.vertical-line-border-projects {
+  height: 100%;
+  border: 1px solid;
+  width: 1px;
+  // margin-left: 0px;
+  // margin-right: 0px;
+  margin: 0 auto;
+  border-color: #585858;
+}
+
+
+.icons {
+  white-space: nowrap;
+  background-color: transparent;
+  margin-top: 150px;
+  // margin-bottom: 100px;
+  width: 200px;
+  margin: 0 auto;
+  // padding-top: 20px;
+  padding-bottom: 70px;
+
+}
