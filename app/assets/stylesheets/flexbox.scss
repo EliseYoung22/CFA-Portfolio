@@ -1,0 +1,45 @@
+// FLEXBOX
+.flex-container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+}
+
+.card {
+  height: 400px;
+  width: 600px;
+  font-size: 17px;
+  border: 2px solid #585858;
+  background-color:	#EDEDED;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-skills {
+  height: 300px;
+  width: 600px;
+  font-size: 17px;
+  border: 2px solid #585858;
+  background-color:	#EDEDED;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-projects {
+  height: 300px;
+  width: 600px;
+  font-size: 17px;
+  border: 2px solid #585858;
+  background-color:	#EDEDED;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel {
+  background: #EDEDED !important;
+  align-items: center;
+  border: transparent;
+}
