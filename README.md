@@ -1,4 +1,5 @@
 # Portfolio
+ For this project we were asked to create a web portfolio to uniquely display our coding projects, skills and provide the reader with some information about ourselves. Some of the requirements for this projects were:
 *a bio about ourselves.
 *a portfolio of completed projects.
 *a way to contact us.
