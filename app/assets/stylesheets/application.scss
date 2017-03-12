@@ -7,18 +7,8 @@
  @import "pages";
  @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
-// ENTER PAGE
- // .intro-page {
- //   background-image: url("/assets/watercolourbright.jpg");
- //   background-size: cover;
- //   background-position: center;
- //   background-repeat: no-repeat;
- //   height: 100vh;
- //  //  width: 1290px;
- // }
 
  .background-head {
-  //  background-image: url("/assets/greygirllong.png");
    background-image: url('http://res.cloudinary.com/devsvbpxr/image/upload/v1489296873/greygirllong_bmofnx.png');
   //  background-size: cover;
    max-width: 100%;
@@ -28,8 +18,6 @@
    background-repeat: no-repeat;
   //  background-attachment: fixed;
    height: 100vh;
-
-
  }
 
 
@@ -104,9 +92,6 @@ body {
   background-image: linear-gradient(to bottom, white, #FFC4A9);
 }
 
-// .container {
-//   margin-left: 300px;
-// }
 
 .page-header {
   border-color: transparent;
@@ -165,8 +150,6 @@ body {
   height: 100%;
   border: 1px solid;
   width: 1px;
-  // margin-left: 0px;
-  // margin-right: 0px;
   margin: 0 auto;
   border-color: #585858;
 }
@@ -193,8 +176,6 @@ body {
   height: 100%;
   border: 1px solid;
   width: 1px;
-  // margin-left: 0px;
-  // margin-right: 0px;
   margin: 0 auto;
   border-color: #585858;
 }

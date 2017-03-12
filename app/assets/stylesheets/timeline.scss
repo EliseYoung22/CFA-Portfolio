@@ -5,7 +5,6 @@
     position: relative;
     left: 0px;
     // margin-left:-140px;
-    margin-top: 0px;
   }
 
 .timeline:before {
@@ -58,17 +57,7 @@
 
   }
 
-// .timeline > li > .timeline-panel:before {
-//   position: absolute;
-//   top: 26px;
-//   right: -15px;
-//   display: inline-block;
-//   border-top: 15px solid transparent;
-//   border-left: 15px solid #ccc;
-//   border-right: 0 solid #ccc;
-//   border-bottom: 15px solid transparent;
-//   content: " ";
-//   }
+
 
 .timeline > li > .timeline-panel:after {
   position: absolute;
@@ -106,12 +95,6 @@
   float: right;
   }
 
-// .timeline > li.timeline-inverted > .timeline-panel:before {
-//   border-left-width: 0;
-//   border-right-width: 15px;
-//   left: -15px;
-//   right: auto;
-//   }
 
 // ARROWS
 .timeline > li.timeline-inverted > .timeline-panel:after {
