@@ -19,3 +19,4 @@
  
  ## Instalation Instructions
 As this portifolio was built usinng Rails, 'bundle' must be run through the terminal to ensure that all the correct gems are installed.
+When installing smooth scroll there was a Javascript file, HTML and CSS to be imported. The speed was a little affected so I deleted require_tubolinks in the application.scss which made the speed perfect. 
