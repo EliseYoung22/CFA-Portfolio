@@ -1,6 +1,7 @@
 // NAVBAR
 .navbar {
   background: transparent;
+
 }
 .navbar-default {
   background: transparent  !important;
@@ -12,6 +13,7 @@
    margin: 0;
    padding: 0;
    overflow: hidden;
+   border-color: transparent !important;
  }
  #menu li {
  float: left;
@@ -25,11 +27,13 @@
  text-align: center;
  padding: 10px 16px;
  text-decoration: none;
+ border-color: transparent;
  }
 
  #menu li a:hover {
   // margin-top: 10px;
    background-color: white;
+   text-decoration: none;
  }
 
  // #sidebar {
@@ -43,6 +47,8 @@
  //     padding-left:24px;
  // }
  #menu {
-   margin-left: 400px;
+   margin-left: 140px;
+   width:100%;
+   border-color: transparent !important;
      //  background-color: transparent !important;
  }
